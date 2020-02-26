@@ -1,0 +1,15 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.m {
+    padding: 3px;
+    margin: 5px;
+}
