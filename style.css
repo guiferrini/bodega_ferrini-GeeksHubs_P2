@@ -1,8 +1,26 @@
 * {
-    margin: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.marco{
     padding: 5px;
 }
 
+/*nome da bodega*/
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+ /*Footer*/
+h2 {
+    font-size: 13px;
+    padding: 0px;
+}
+
+/*Menu*/
 #menu {
     display: flex;
     flex-direction: row;
@@ -15,22 +33,46 @@
     margin: 5px;
 }
 
-#capa {
-    max-width: 100%;
-    max-height: 10%;
+/*Foto capa*/
+.foto-capa{
+    /*background-color: red;*/
+    background-image: url(IMG/plantacao_casa.jpg);
     width: auto;
-    height: auto;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
-
 .nome_titulo {
     position: absolute;
     top: 30%;
     left: 50%;
-    width: 100%;
     text-align: center;
     color: black;
-    font-size: 50px;
     transform: translate(-50%, -50%);
-    background-color: rgba(202, 191, 191, 0.8);
+    background-color: rgba(202, 191, 191, 0.6);
 }
+
+.texto {
+    height: 30vh;
+}
+
+/*Index: texto historia*/
+.Phistoria {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Shistoria {
+    font-size: 20px;
+    text-justify: auto;
+}
+
+
+/*Footer*/
+#pe {
+    background-color: rgba(235, 227, 227, 0.6);
+}
+
