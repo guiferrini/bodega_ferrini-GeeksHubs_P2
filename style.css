@@ -31,6 +31,7 @@ h2 {
 .m {
     padding: 3px;
     margin: 5px;
+    list-style: none; /*retira os ptos/quadrados de ordem da lista*/
 }
 
 /*Foto capa*/
@@ -55,7 +56,7 @@ h2 {
 }
 
 .texto {
-    height: 30vh;
+    height: 40vh;
 }
 
 /*Index: texto historia*/
@@ -73,6 +74,15 @@ h2 {
 
 /*Footer*/
 #pe {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
     background-color: rgba(235, 227, 227, 0.6);
 }
 
+.uva_rodape {
+    max-width: 18vw;
+    max-height: 18vh;
+}
