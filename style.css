@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+    flex-wrap: wrap; /*Resposnsive Design - fluid/elastico  */
 }
 
 .m {
@@ -19,4 +20,17 @@
     max-height: 10%;
     width: auto;
     height: auto;
+    position: relative;
+}
+
+.nome_titulo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(202, 191, 191, 0.8);
 }
