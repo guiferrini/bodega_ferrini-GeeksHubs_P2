@@ -20,6 +20,12 @@ h2 {
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px;
+}
+
 /*Menu*/
 #menu {
     display: flex;
@@ -79,10 +85,11 @@ h2 {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
+    padding: 3px;
     background-color: rgba(235, 227, 227, 0.6);
 }
 
 .uva_rodape {
-    max-width: 18vw;
-    max-height: 18vh;
+    max-width: 14vw;
+    max-height: 14vh;
 }
