@@ -1,0 +1,2 @@
+-pront se eh maior de idade tem 18, sim EventTarget, nao fecha
+-clica e te mostar ficha tecnica do vinho
