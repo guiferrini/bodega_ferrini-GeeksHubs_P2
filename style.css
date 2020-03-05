@@ -75,6 +75,7 @@ a {
 .Shistoria {
     font-size: 20px;
     text-justify: auto;
+    width: 50vw;
 }
 
 
@@ -84,12 +85,21 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
     padding: 3px;
     background-color: rgba(235, 227, 227, 0.6);
+    font-size: 10px;
 }
 
 .uva_rodape {
     max-width: 14vw;
     max-height: 14vh;
+}
+
+.uva_corpo {
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+.foto.histo {
+    padding : 10px;
 }
