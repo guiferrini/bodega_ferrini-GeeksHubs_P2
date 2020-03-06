@@ -18,3 +18,25 @@ function vinho3 () {
 function sign() {
     alert("Thanks. We will contact you as soon as possible.");
 }
+
+function onDragStart(ev){ 
+    ev.dataTransfer.setData('enlace', ev.target.id);
+    console.log('OnDragStart element: ', ev.target.id)
+  }
+  
+  function onDrop(event){
+    event.preventDefault();
+    console.log('onDrop')
+    
+    let data = event.dataTransfer.getData("enlace");
+    event.target.appendChild(document.getElementById(data));
+  }
+  
+  function onDragOver(event){
+    event.preventDefault();
+  }
+  
+  function onDragLeave(event){
+    console.log('onDragLeave')
+  }
+  

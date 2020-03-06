@@ -48,6 +48,26 @@
         <textarea id="resp" class="caixa_descrição" placeholder="Description">
             
         </textarea>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class='origen'>
+                    <span>Origen</span>
+                    <div class='enlaces' ondrop="onDrop(event)" ondragover="onDragOver(event)">
+                      <a id='enlace1' draggable='true' ondragstart='onDragStart(event)'>Enlace 1</a>
+                      <a id='enlace2' draggable='true' ondragstart='onDragStart(event)'>Enlace 2</a>
+                      <a id='enlace3' ondragstart='onDragStart(event)'>Enlace 3</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class='destino'>  
+                    <span>Destino</span>
+                    <div class='enlaces' ondrop="onDrop(event)" ondragover="onDragOver(event)"> 
+                    </div>
+                  </div>
+            </div>
+        </div>
     </main>
     
     <footer class="container" id="pe">
