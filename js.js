@@ -14,3 +14,7 @@ function vinho3 () {
     let v3 = "Type: Red wine \n Grape varieties: Corvina, Merlot y Rondinella \n  Alcohol content: 14% \n Review: From its intense, dark and determined purple colour with hints of violet, this Ripasso hits you with its intense, crisp and broad ripe red fruit bouquet. Then follow deeper dark fruit notes, such as blackberry, blackcurrant and ripe cherry, jammy cherry and at times cherry in alcohol. Even though it is velvety, harmonious, full-bodied and intense, it is also sprightly and sleek, which contributes to its crisp, fruity and varietal nature and the interesting flavour, which just screams out to be drunk. \n Recommendations: Optimum serving temperature: Between 16ºC and 18ºC"
     document.getElementById("resp").innerHTML = v3;
 }
+
+function sign() {
+    alert("Thanks. We will contact you as soon as possible.");
+}
