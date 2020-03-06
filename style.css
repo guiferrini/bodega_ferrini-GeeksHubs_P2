@@ -137,9 +137,13 @@ a {
     height: 350px;
 }
 
+.img-thumbnail {
+    color: #722f37;
+}
+
 .caixa_descrição {
     margin-top: 10px;   
-    width: 90%;
+    width: 100%;
     height: 300px;
     display: block;
     margin-left: auto;
