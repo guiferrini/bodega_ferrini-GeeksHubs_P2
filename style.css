@@ -36,12 +36,13 @@ a {
 }
 
 /*Menu*/
-#menu {
+.menu {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     flex-wrap: wrap; /*Resposnsive Design - fluid/elastico  */
     list-style: none;
+    
 }
 
 .m {
@@ -119,10 +120,12 @@ a {
     padding : 10px;
 }
 
-
+.corpo {
+    margin-top: 30px;
+}
 
 .wine {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
