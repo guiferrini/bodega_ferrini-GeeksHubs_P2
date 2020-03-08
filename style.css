@@ -54,6 +54,14 @@ a {
 .m:hover {
     list-style: none;
 }
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: #722f37;
+}
+
+a:hover {
+    color: #722f37;
+}
 
 /*Foto capa*/
 .foto-capa{
@@ -222,11 +230,3 @@ li {
     align-items: center;
 }
 
-.nav-pills .nav-link.active {
-    color: white;
-    background-color: #722f37;
-}
-
-a:hover {
-    color: #722f37;
-}
