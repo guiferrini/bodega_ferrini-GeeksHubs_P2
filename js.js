@@ -1,5 +1,3 @@
-//-pront se eh maior de idade tem 18, sim EventTarget, nao fecha
-//-clica e te mostar ficha tecnica do vinho
 function vinho1 () {
     let v1 = "Name: Podão \n Type: Red wine \n Grape varieties: Sangiovese \n  Alcohol content: 14,5% \n Review: It has a dark and intense ruby red color. A great olfactory impact for this Brunello which generously dispenses notes of small ripe fruits, leather, tobacco, aromatic herbs and very fine spiciness. The taste is really pleasant: velvet tannins caress the palate; we find balance and taste-olfactory correspondence of great consistency. An excellent glass now, an exceptional bottle in a few years. Excellent in combination with sumptuous meat and game dishes; also ideal with aged cheeses. \n Recommendations: Optimum serving temperature: Between 16ºC and 18ºC   Drinking and storing: Drink now or keep until 2045."
     document.getElementById("resp").innerHTML = v1;

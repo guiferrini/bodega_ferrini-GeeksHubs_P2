@@ -6,7 +6,7 @@ Is the web page about the winery Ferrini at Fontanelle, Italy.
 
 The webpage has 3 pages.
 First is the name/logo and description about the winery and a short history.
-Second is about our wines, a description (with JS) and a interaction with a cliente (Drag and Drop) who vote at the best in your opinion.
+Second is about our wines, a description (with JS) and a interaction with a cliente (Drag and Drop, JS) who vote at the best in your opinion.
 The last is the contact and map/localization winery.
 
 Tecnologis:
