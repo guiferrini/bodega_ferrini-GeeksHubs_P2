@@ -172,3 +172,61 @@ a {
 li {
     list-style: none;
 }
+
+/*drag and drop*/
+.origem {
+    height: 150px;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destino {
+    height: 150px;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+  
+.enlaces {
+    background: #854149;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 0px 0px !important;
+}
+  
+.origem.enlaces.a {
+    background: white;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+  
+/**/
+.Drag_Drop {
+    background-color:#854149;
+    color: white;
+    margin-top: 30px;
+    width: 300px;
+    height: 150px;
+}
+
+
+.ddname {
+    align-items: center;
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: #722f37;
+}
+
+a:hover {
+    color: #722f37;
+}

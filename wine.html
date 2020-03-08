@@ -33,15 +33,15 @@
         <section class="row justify-content-around" class="vinhos">
             <span class="vinho" class="col">  
                 <img src="/IMG/vinho1.jpg"alt="garrafa_1" class="img-thumbnail" onclick="vinho1()">
-                <h3>nome</h3>
+                <h3>Podão</h3>
             </span>
             <span class="vinhoo" class="col">  
                 <img src="/IMG/vinho2.jpg"alt="garrafa_2" class="img-thumbnail" onclick="vinho2()">
-                <h3>nome</h3>
+                <h3>Talha</h3>
             </span>
             <span class="vinho" class="col">  
                 <img src="/IMG/vinho3.jpg"alt="garrafa_3" class="img-thumbnail" onclick="vinho3()">
-                <h3>nome</h3>
+                <h3>Rodo</h3>
             </span>
             
         </section>
@@ -49,23 +49,27 @@
             
         </textarea>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class='origen'>
-                    <span>Origen</span>
+        <div class="row justify-content-around">
+            <div class="col-4">
+                <div class='origen Drag_Drop'>
+                    <span class="ddname">Choose you best wine</span>
                     <div class='enlaces' ondrop="onDrop(event)" ondragover="onDragOver(event)">
-                      <a id='enlace1' draggable='true' ondragstart='onDragStart(event)'>Enlace 1</a>
-                      <a id='enlace2' draggable='true' ondragstart='onDragStart(event)'>Enlace 2</a>
-                      <a id='enlace3' ondragstart='onDragStart(event)'>Enlace 3</a>
+                      <a id='enlace1' class="a" draggable='true' ondragstart='onDragStart(event)'>Podão</a>
+                      <a id='enlace2' class="a" draggable='true' ondragstart='onDragStart(event)'>Talha</a>
+                      <a id='enlace3' class="a" draggable='true' ondragstart='onDragStart(event)'>Rodo</a>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <div class='destino'>  
-                    <span>Destino</span>
-                    <div class='enlaces' ondrop="onDrop(event)" ondragover="onDragOver(event)"> 
+            <div class="col-4">
+                <div class='destino Drag_Drop'>  
+                    <span class="ddname">Vote zone</span>
+                    <div class='enlaces' ondrop="onDrop(event)" ondragover="onDragOver(event)">
+                        <a class="a">--1°--> </a>
+                        <a class="a">--2°--> </a>
+                        <a class="a">--3°--> </a>
                     </div>
-                  </div>
+                    <button type="submit" onclick="voto()">VOTE!</button>
+                </div>
             </div>
         </div>
     </main>
