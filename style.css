@@ -149,8 +149,9 @@ a:hover {
     margin-bottom: 190px;
 }
 
-.img-thumbnail {
+.img-thumbnail:hover {
     color: #722f37;
+    border: #722f37;
 }
 
 .caixa_descrição {
